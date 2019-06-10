@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"jsx": "react",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"pretty": true,
+		"removeComments": true,
+		// Setting this to false on purpose; shouldn't fail a build if no unused vars. Linter should be responsible
+		"noUnusedLocals": false,
+		"skipLibCheck": true,
+		"target": "es2017",
+		"typeRoots" : ["./node_modules/@types"],
+		"paths": {}
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
